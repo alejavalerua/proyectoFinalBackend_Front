@@ -22,24 +22,23 @@ Antes de ejecutar el proyecto, asegúrate de tener instalados:
 ```bash
 git clone <https://github.com/alejavalerua/proyectoFinalBackend_Front.git>
 cd frontend
+```
 
 ### Instala las dependencias:
 ```bash
 pnpm install
+```
 
 ### 💻 Ejecución en desarrollo
 ```bash
 pnpm dev
+```
 ---
 
 ## 🧰 Tecnologías principales
 
 ⚡ Next.js 16
-
 💅 Tailwind CSS
-
 🧩 TypeScript
-
 🐙 pnpm
-
 🧠 Clean UI Architecture para componentes modulares
