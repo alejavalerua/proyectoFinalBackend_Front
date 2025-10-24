@@ -33,7 +33,7 @@ export function Hero() {
           {/* Insignia de la plataforma */}
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent/10 text-accent text-sm font-medium">
             <Code2 className="w-4 h-4" />
-            <span>Online Judge Platform</span
+            <span>Online Judge Platform</span>
           </div>
 
           {/* Título principal */}

@@ -1,0 +1,138 @@
+[00:00:01.224] Server  LOG     
+[00:00:01.224] Server  LOG        We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
+[00:00:01.224] Server  LOG        The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+
+[00:00:01.225] Server  LOG        	- include was updated to add '.next\dev/types/**/*.ts'
+[00:00:01.225] Server  LOG        	- include was updated to add '.next\dev/types/**/*.ts'
+[00:00:01.225] Server  LOG     
+[00:00:01.226] Server  LOG        The following mandatory changes were made to your tsconfig.json:
+
+[00:00:01.226] Server  LOG        	- jsx was set to react-jsx (next.js uses the React automatic runtime)
+[00:00:01.226] Server  LOG     
+[00:00:01.372] Server  LOG      ✓ Ready in 816ms
+[00:00:14.672] Server  ERROR    ⨯ ./components/hero.tsx:37:11
+Parsing ecmascript source code failed
+  35 |             <Code2 className="w-4 h-4" />
+  36 |             <span>Online Judge Platform</span
+> 37 |           </div>
+     |           ^
+  38 |
+  39 |           {/* Título principal */}
+  40 |           <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-balance">
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+
+
+./components/hero.tsx:37:12
+Parsing ecmascript source code failed
+  35 |             <Code2 className="w-4 h-4" />
+  36 |             <span>Online Judge Platform</span
+> 37 |           </div>
+     |            ^^^^^
+  38 |
+  39 |           {/* Título principal */}
+  40 |           <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-balance">
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+
+[00:00:15.846] Server  WARN     ⚠ Cross origin request detected from 192.168.1.10 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+[00:00:15.858] Browser ERROR   uncaughtError: Error: ./components/hero.tsx:37:11
+Parsing ecmascript source code failed
+  35 |             <Code2 className="w-4 h-4" />
+  36 |             <span>Online Judge Platform</span
+> 37 |           </div>
+     |           ^
+  38 |
+  39 |           {/* Título principal */}
+  40 |           <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-balance">
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+
+
+[00:00:16.090] Browser ERROR   ./components/hero.tsx:37:11
+Parsing ecmascript source code failed
+  35 |             <Code2 className="w-4 h-4" />
+  36 |             <span>Online Judge Platform</span
+> 37 |           </div>
+     |           ^
+  38 |
+  39 |           {/* Título principal */}
+  40 |           <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-balance">
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+[00:00:16.090] Browser ERROR   ./components/hero.tsx:37:12
+Parsing ecmascript source code failed
+  35 |             <Code2 className="w-4 h-4" />
+  36 |             <span>Online Judge Platform</span
+> 37 |           </div>
+     |            ^^^^^
+  38 |
+  39 |           {/* Título principal */}
+  40 |           <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-balance">
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+[00:00:16.333] Browser ERROR   ./components/hero.tsx:37:11
+Parsing ecmascript source code failed
+  35 |             <Code2 className="w-4 h-4" />
+  36 |             <span>Online Judge Platform</span
+> 37 |           </div>
+     |           ^
+  38 |
+  39 |           {/* Título principal */}
+  40 |           <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-balance">
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+[00:00:16.333] Browser ERROR   ./components/hero.tsx:37:12
+Parsing ecmascript source code failed
+  35 |             <Code2 className="w-4 h-4" />
+  36 |             <span>Online Judge Platform</span
+> 37 |           </div>
+     |            ^^^^^
+  38 |
+  39 |           {/* Título principal */}
+  40 |           <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-balance">
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+[00:01:43.949] Server  LOG      ✓ Compiled in 271ms
+[00:01:44.750] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:45.537] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:01:45.537] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:01:45.537] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.1.10:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.1.10:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1761270773312}
