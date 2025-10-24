@@ -41,4 +41,3 @@ pnpm dev
 💅 Tailwind CSS
 🧩 TypeScript
 🐙 pnpm
-🧠 Clean UI Architecture para componentes modulares
